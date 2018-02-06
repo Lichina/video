@@ -1,5 +1,5 @@
 <?php
 return array (
   'username' => 'admin',
-  'passwd' => '21232f297a57a5a743894a0e4a801fc3',
+  'passwd' => '0d1499ce9c25e635f80538826c5799b0',
 );

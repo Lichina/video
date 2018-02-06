@@ -1,7 +1,7 @@
 <html>
 <head>
     <meta charset='utf-8'/>
-    <title>{{config('webset.webname')}}-{{config('appconfig.appname')}}</title>
+    <title>123{{config('webset.webname')}}-{{config('appconfig.appname')}}</title>
     <script>
         var ua = window.navigator.userAgent.toLowerCase();
         if (/mobile/.test(ua)) {

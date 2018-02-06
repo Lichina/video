@@ -15,7 +15,7 @@
 
                     </div>
                     <div class="footer clearfix">
-                        <span class="text-muted" id="xuji">战狼影院-正在播放《{{$pm}}》-ZLFLV.COM<span class="js"></span></span>
+                        <span class="text-muted" id="xuji">岁月影院-正在播放《{{$pm}}》-V.SYJH.ME<span class="js"></span></span>
 
                     </div>
                     <!--<div class="footer clearfix" id="xlu" style="display:inline-block; height:auto">

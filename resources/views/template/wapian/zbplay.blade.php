@@ -17,7 +17,7 @@
 
                         </div>
                         <div class="footer clearfix">
-                            <span class="text-muted" id="xuji">战狼影院-正在直播{{$zb['zbname']}}<span class="js"></span></span>
+                            <span class="text-muted" id="xuji">岁月影院-正在直播{{$zb['zbname']}}<span class="js"></span></span>
 
                         </div>
                     </div>

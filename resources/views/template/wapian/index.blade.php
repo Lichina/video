@@ -67,7 +67,7 @@
                     <div class="hy-right-qrcode hidden-sm hidden-xs">
                         <div class="item">
                             <dl class="clearfix">
-                                <dt><img src="{{config('wxconfig.wximg')}}" alt="战狼影视,好看的电影,VIP电影免费看"></dt>
+                                <dt><img src="{{config('wxconfig.wximg')}}" alt="岁月影视,好看的电影,VIP电影免费看"></dt>
                                 <dd>
                                     <h4>扫描二维码可以使用手机观看</h4>
                                     <p class="text-muted">
@@ -86,7 +86,7 @@
             <div class="hy-layout clearfix">
                 <div class="hy-video-head">
                     <h3 class="margin-0"><i class="icon iconfont icon-update text-color"></i> 院线尝鲜</h3>
-                    <ul class="pull-right">
+                    <ul class="pull-right">AS
                         <li class="active"><a href="/cxlist.html" class="text-muted">更多 <i
                                         class="icon iconfont icon-right"></i></a></li>
                     </ul>

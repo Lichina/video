@@ -26,7 +26,7 @@
     </div>
 </div>
 <div class="footer-w3l">
-    <p>&copy; 2017 {{config('webset.webicp')}} All rights reserved | Design by <a href="/">淡心心心</a></p>
+    <p>&copy; 2017 {{config('webset.webicp')}} All rights reserved | Design by <a href="/">Lich</a></p>
 </div>
 
 </body>
