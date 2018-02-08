@@ -42,10 +42,10 @@
 		z-index: -100;
 		}
 		.xwcms {
-			-webkit-transition: -webkit-transform 1.0s ease-out;
-			-moz-transition: -moz-transform 1.0s ease-out;
-			-o-transition: -o-transform 1.0s ease-out;
-			-ms-transition: -ms-transform 1.0s ease-out;
+			-webkit-transition: -webkit-transform 1s ease-out;
+			-moz-transition: -moz-transform 1s ease-out;
+			-o-transition: -o-transform 1s ease-out;
+			-ms-transition: -ms-transform 1s ease-out;
 		}
 		.xwcms:hover {
 			-webkit-transform: rotateY(180deg);
@@ -87,11 +87,7 @@
 @show
 <div class="hy-gototop hidden-sm hidden-xs">
     <ul class="item clearfix">
-<<<<<<< HEAD
-		{{--<li><a class="" href="javascript:#" title="二维码" onclick="ewm()" style="z-index:9999999;color:#fff;">手机</a></li>--}}
-=======
-	{{--<li><a class="" href="javascript:#" title="二维码" onclick="ewm()" style="z-index:9999999;color:#fff;">手机</a></li>--}}
->>>>>>> 960e817ecc8de62edc19287cf1347c45b0c7a24f
+		<li><a class="" href="javascript:#" title="二维码" onclick="ewm()" style="z-index:9999999;color:#fff;">手机</a></li>
 		<li><a class="" href="javascript:#" title="开关灯" onclick="kg()" id="kg" style="z-index:9999999;color:#fff;">关灯</a></li>
         <li><a data-toggle="tooltip" data-placement="top" class="" href="javascript:scroll(0,0)" title="返回顶部"><i class="icon iconfont icon-uparrow"></i></a></li>
     </ul>
