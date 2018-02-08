@@ -34,6 +34,7 @@ class GHttp
     {
         is_string($args) && parse_str($args,$args);
         $args = array_merge([
+            'verify' => false,
             'query' => $args,
             'headers' => [
                 'referer' => $url,
@@ -61,7 +62,52 @@ class GHttp
     {
         is_string($args) && parse_str($args,$args);
         $args = array_merge([
+            'verify' => false,
             'form_params' => $args,
+            'headers' => [
+                'referer' => $url,
+                'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+            ]
+        ],$otherArgs);
+        $client = self::getClient();
+        $response = $client->request('Post', $url,$args);
+        return (string)$response->getBody();
+    }
+
+    /**
+     * @param $url
+     * @param null $raw
+     * @param array $otherArgs
+     * @return string
+     */
+    public static function postRaw($url, $raw = null, $otherArgs = [])
+    {
+        is_array($raw) && $raw = json_encode($raw);
+        $args = array_merge([
+            'verify' => false,
+            'body' => $raw,
+            'headers' => [
+                'referer' => $url,
+                'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+            ]
+        ],$otherArgs);
+        $client = self::getClient();
+        $response = $client->request('Post', $url,$args);
+        return (string)$response->getBody();
+    }
+
+    /**
+     * @param $url
+     * @param null $args
+     * @param array $otherArgs
+     * @return string
+     */
+    public static function postJson($url, $args = null, $otherArgs = [])
+    {
+        is_string($args) && parse_str($args,$args);
+        $args = array_merge([
+            'verify' => false,
+            'json' => $args,
             'headers' => [
                 'referer' => $url,
                 'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'

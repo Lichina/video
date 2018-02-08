@@ -87,7 +87,7 @@
 @show
 <div class="hy-gototop hidden-sm hidden-xs">
     <ul class="item clearfix">
-		<li><a class="" href="javascript:#" title="二维码" onclick="ewm()" style="z-index:9999999;color:#fff;">手机</a></li>
+	{{--<li><a class="" href="javascript:#" title="二维码" onclick="ewm()" style="z-index:9999999;color:#fff;">手机</a></li>--}}
 		<li><a class="" href="javascript:#" title="开关灯" onclick="kg()" id="kg" style="z-index:9999999;color:#fff;">关灯</a></li>
         <li><a data-toggle="tooltip" data-placement="top" class="" href="javascript:scroll(0,0)" title="返回顶部"><i class="icon iconfont icon-uparrow"></i></a></li>
     </ul>
