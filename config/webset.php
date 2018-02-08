@@ -1,16 +1,16 @@
 <?php
 return array (
-  'webname' => 'SYJH自动采集影视系统',
+  'webname' => '岁月静好自动采集影视系统',
   'websubname' => '免vip看全网影视',
   'webdomin' => 'v.syjh.me',
-  'webkeywords' => 'vip,免费,解析',
+  'webkeywords' => 'vip,免费,解析,岁月静好',
   'webdesc' => '代码改变世界',
   'webdir' => 'dudu',
   'webicp' => '代码改变世界',
   'webmail' => 'admin@syjh.me',
   'copyright' => 'Lich',
   'webtemplate' => 'wapian',
-  'cy' => '<div id="SOHUCS" sid="{{play}}" ></div> 
+  'cy' => '<div id="SOHUCS" sid="{{$play}}" ></div> 
 <script type="text/javascript"> 
 (function(){ 
 var appid = \'cytrYqyv2\'; 
@@ -22,7 +22,7 @@ window.document.write(\'<script id="changyan_mobile_js" charset="utf-8" type="te
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?df46d5c028c771871a4a8ad135fd7a0f";
+  hm.src = "https://hm.baidu.com/hm.js?da9a02365b19bc487a58736535594c16";
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();
