@@ -5,7 +5,7 @@ return array (
   'webdomin' => 'v.syjh.me',
   'webkeywords' => 'vip,免费,解析',
   'webdesc' => '代码改变世界',
-  'webdir' => 'admin',
+  'webdir' => 'dudu',
   'webicp' => '代码改变世界',
   'webmail' => 'admin@syjh.me',
   'copyright' => 'Lich',
