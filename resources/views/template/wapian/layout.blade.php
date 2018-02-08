@@ -42,10 +42,10 @@
 		z-index: -100;
 		}
 		.xwcms {
-			-webkit-transition: -webkit-transform 1.5s ease-out;
-			-moz-transition: -moz-transform 1.5s ease-out;
-			-o-transition: -o-transform 1.5s ease-out;
-			-ms-transition: -ms-transform 1.5s ease-out;
+			-webkit-transition: -webkit-transform 1.0s ease-out;
+			-moz-transition: -moz-transform 1.0s ease-out;
+			-o-transition: -o-transform 1.0s ease-out;
+			-ms-transition: -ms-transform 1.0s ease-out;
 		}
 		.xwcms:hover {
 			-webkit-transform: rotateY(180deg);
