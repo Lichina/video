@@ -139,7 +139,7 @@
     </div>
 </div>
 <canvas id="background"></canvas>
-<script async type="text/javascript" src="/public/static/wapian/js/background.js"></script>
+{{--<script async type="text/javascript" src="/public/static/wapian/js/background.js"></script>--}}
 </body>
 <script>
     $(function () {
