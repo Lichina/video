@@ -28,6 +28,11 @@
             enable_page_level_ads: true
         });
     </script>
+	<script>(function(){
+var src = (document.location.protocol == "http:") ? "http://js.passport.qihucdn.com/11.0.1.js?dbc22cd465cef742af2f0767561c1b33":"https://jspassport.ssl.qhimg.com/11.0.1.js?dbc22cd465cef742af2f0767561c1b33";
+document.write('<script src="' + src + '" id="sozz"><\/script>');
+})();
+</script>
     <!--[if lt IE 9]>
     <script src="/public/static/wapian/js/html5.js"></script><![endif]-->
     @section('other')
